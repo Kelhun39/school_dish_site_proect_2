@@ -2,7 +2,7 @@ body {
     font-family: Arial, sans-serif;
     background-color: #8a08aa;
     margin: 0;
-    text-align: center;
+    text-align: left;
 }
 
 nav {
@@ -38,6 +38,14 @@ img {
 p {
     font-size: 18px;
     line-height: 1.6;
+    color: black; /* Или #0000FF, rgb(0, 0, 255) */
+}
+span {
+    font-size: 18px;
+    line-height: 1.6;
+    color: black; /* Или #0000FF, rgb(0, 0, 255) */
+    background-color: white; /* Цвет "маркера" */
+    padding: 2px 5px;        /* Небольшие отступы для красоты */
 }
 ul, ol {
     text-align: left;  /* щоб текст списку не по центру */
