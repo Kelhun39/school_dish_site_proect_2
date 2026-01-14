@@ -39,3 +39,11 @@ p {
     font-size: 18px;
     line-height: 1.6;
 }
+ul, ol {
+    text-align: left;  /* щоб текст списку не по центру */
+    margin: 20px auto;
+    max-width: 600px;
+}
+li {
+    margin-bottom: 10px;
+}
